@@ -1,0 +1,109 @@
+==Описание==
+"Тень хочет сделать предложение женщине по имени Натали. К 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"Обри Кэллахан - правнучка печально известной королевы пиратов. Как вы 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"Утерянное Сокровище Песков принадлежало капитану Блэйду, но он его 
+MissionDescriptionOverride=""
+==Описание==
+"Ого, у пиратов есть профсоюз... кто бы мог подумать? Члены профсоюза 
+MissionDescriptionOverride=""
+==Описание==
+"Капитан Скарлетт очень плохо относится к дезертирам. Она попросила 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"Да, вы победили Левиафана и нашли Сокровище Песков - но это же не 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride="Итак, Скарлетт вас предала. Это, в общем, неудивительно, но все 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"Фрэнк - труп, которого Тень считает непросыхающим пьяницей, - 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"На [place]очистительном заводе Уошберна[-place] вам встретился 
+MissionDescriptionOverride=""
+==Описание==
+"На [place]очистительном заводе Уошберна[-place] вам встретился 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"По просторам [place]Хейтерс Фолли[-place] бродит ужасное существо. Сэр 
+MissionDescriptionOverride=""
+==Описание==
+"Неисправный гиперионский грузчик, который называет себя Ц3Н30Р, 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"Бабушка Обри Кэллахан III дружила с легендарным капитаном Блэйдом. 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"В запечатанной бутылке обнаруживается записка, из которой вы узнаете о 
+MissionDescriptionOverride=""
+==Описание==
+"В бутылке вы нашли записку, в которой сказано, что на [place]Соленых 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"В бутылке вы нашли записку, в которой сказано, что в [place]Хейтерс 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"В бутылке вы нашли записку, в которой сказано, что в [place]Ржави[-place] 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"В бутылке вы нашли записку, в которой сказано, что на [place]маяке 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"Натали, кокетливое женское альтер-эго Тени, требует от вас победы в 
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+MissionDescriptionOverride=""
+==Описание==
+"Цинга убивает. Не так надежно, как, скажем, пули, голод или взрывчатка, 
+MissionDescriptionOverride=""
+==Описание==
+"Мерсер, кок шайки Скарлетт, хочет, чтобы вы устранили вонючего радиста 
+MissionDescriptionOverride=""
+MissionDescriptionOverrid

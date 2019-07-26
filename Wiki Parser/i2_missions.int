@@ -1,0 +1,11 @@
+[missions.m_scavenger6 MissionDefinition]
+MissionName="Мусорщик: Пулемет"
+MissionDescription="Повсюду разбросаны части от пулемета. Если ты найдешь все составляющие пулемета, я смогу собрать его для тебя. Принеси мне корпус, магазин, рукоять и барабан."
+TurnInDescription="Я смог собрать все части в единое оружие. Вот твой пулемет. Развлекайся!"
+MissionSummary="Найди все компоненты пулемета."
+MissionGiver="Панель управления в Глуши"
+Objectives[0]=(ProgressMessage="Корпус пулемета:")
+Objectives[1]=(ProgressMessage="Магазин пулемета:")
+Objectives[2]=(ProgressMessage="Рукоять пулемета:")
+Objectives[3]=(ProgressMessage="Барабан пулемета:")
+

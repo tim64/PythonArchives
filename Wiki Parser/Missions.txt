@@ -1,0 +1,771 @@
+﻿[M_Orchid_Wingman MissionDefinition]
+MissionName="Сват"
+MissionDescription="Тень хочет сделать предложение женщине по имени Натали. К 
+несчастью, он потерял обручальное кольцо. Если вы сможете найти кольцо и сделать Натали 
+предложение от имени Тени, то сделаете его самым счастливым безумным 
+псевдонекрофилом на Пандоре.\n"
+TurnInDescription="Натали отказала Тени. К счастью, эти двое никогда не будут вместе.\n"
+MissionSummary="Помочь Тени сделать предложение Натали.\n"
+MissionGiver="Тень"
+MissionTurnInLocation="Тень"
+TeaserText="Помогите братану."
+
+[M_Orchid_Wingman:FindRing MissionObjectiveDefinition]
+ProgressMessage="Найти обручальное кольцо"
+
+[M_Orchid_Wingman:FindRingSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Wingman:Propose MissionObjectiveDefinition]
+ProgressMessage="Сделать предложение Натали"
+
+[M_Orchid_Wingman:ProposeSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Wingman:ReturnToShadyDealer MissionObjectiveDefinition]
+ProgressMessage="Вернуться к Тени"
+
+[M_Orchid_Wingman:ReturnToShadyDealerSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_BuryingThePast MissionDefinition]
+MissionName="Похороны прошлого"
+MissionDescription="Обри Кэллахан - правнучка печально известной королевы пиратов. Как вы 
+можете себе представить, подобный факт бросает серьезную тень на репутацию и осложняет 
+продвижение по службе. Поэтому Обри поручила вам уничтожить «Кронос» - корабль, 
+которым командовала ее прабабушка, а вместе с ним - все доказательства существования 
+дьявольской старушки.\n"
+TurnInDescription="Теперь, когда прабабку стерли со страниц истории, Обри может 
+предпринять попытку забыть о торговле детьми и вернуться к нормальной жизни.\n"
+MissionSummary="Взорвать «Кронос».\n"
+MissionGiver="Доска объявлений Оазиса"
+MissionTurnInLocation="Доска объявлений Оазиса"
+TeaserText="В этом задании будут взрывы."
+
+[M_Orchid_BuryingThePast:DestroyShip MissionObjectiveDefinition]
+ProgressMessage="Взорвать «Кронос» к чертям"
+
+[M_Orchid_BuryingThePast:DestroyShipSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_BuryingThePast:GetExplosives MissionObjectiveDefinition]
+ProgressMessage="Взять взрывчатку"
+
+[M_Orchid_BuryingThePast:GetExplosivesSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_BuryingThePast:PlantExplosives MissionObjectiveDefinition]
+ProgressMessage="Заминировать «Кронос»"
+
+[M_Orchid_BuryingThePast:PlantExplosivesSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_CaptainsLog MissionDefinition]
+MissionName="Журнал капитана"
+MissionDescription="Утерянное Сокровище Песков принадлежало капитану Блэйду, но он его 
+зарыл. Когда? Зачем? И самое важное - где? Скарлетт попросила вас найти аудиодневники 
+капитана Блэйда. Если вам повезет, вы сможете напасть на след сокровища.\n"
+TurnInDescription="Дневники Блэйда полны волнующих размышлений на тему милосердия, 
+сотрудничества, насилия и выживания. Но все это не имеет значения, потому что вам нужно 
+было узнать, где закопано это долбаное сокровище, а в дневниках об этом ни хрена не 
+сказано.\n"
+MissionSummary="Отыскать дневники капитана Блэйда.\n"
+MissionGiver="Пиратская доска объявлений"
+MissionTurnInLocation="Пиратская доска объявлений"
+TeaserText="Зачем капитан Блэйд зарыл утерянное Сокровище Песков?"
+
+[M_Orchid_CaptainsLog:FindECHO2 MissionObjectiveDefinition]
+ProgressMessage=""
+
+[M_Orchid_CaptainsLog:FindECHO3 MissionObjectiveDefinition]
+ProgressMessage=""
+
+[M_Orchid_CaptainsLog:FindECHO4 MissionObjectiveDefinition]
+ProgressMessage=""
+
+[M_Orchid_CaptainsLog:FindECHO5 MissionObjectiveDefinition]
+ProgressMessage=""
+
+[M_Orchid_CaptainsLog:FindRecordings MissionObjectiveDefinition]
+ProgressMessage="Найти записывающие устройства"
+
+[M_Orchid_CaptainsLog:FindRecordingsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_DeclarationAgainstIndependents MissionDefinition]
+MissionName="Декларация против независимости"
+MissionDescription="Ого, у пиратов есть профсоюз... кто бы мог подумать? Члены профсоюза 
+в [place]Соленых равнинах[-place] не слишком рады видеть штрейкбрейхеров (а именно, вас), 
+поэтому они вызвали вас на бой.\n"
+TurnInDescription="Члены местной ячейки пиратского профсоюза #402 могут не любить вас, 
+но будут уважать.\n"
+MissionSummary="Убить членов пиратского профсоюза.\n"
+MissionGiver="Пиратская доска объявлений"
+MissionTurnInLocation="Пиратская доска объявлений"
+TeaserText="Держаться вместе!"
+
+[M_Orchid_DeclarationAgainstIndependents:DestroyHovercrafts MissionObjectiveDefinition]
+ProgressMessage="Уничтожить машины профсоюза"
+
+[M_Orchid_DeclarationAgainstIndependents:DestroyHovercraftSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Deserters MissionDefinition]
+MissionName="Десерт для дезертиров"
+MissionDescription="Капитан Скарлетт очень плохо относится к дезертирам. Она попросила 
+вас найти дезертиров и убить их."
+TurnInDescription="Благодаря вашим усилиям остальные члены экипажа Скарлетт трижды 
+подумают, прежде чем подыскивать себе другое занятие."
+MissionSummary="Убить дезертиров."
+MissionGiver="Пиратская доска объявлений"
+MissionTurnInLocation="Пиратская доска объявлений"
+TeaserText="Сражайтесь или умрите. Или бегите - тогда вас убьют как-нибудь потом."
+
+[M_Orchid_Deserters:KillDeserter1 MissionObjectiveDefinition]
+ProgressMessage="Убить Бенни-Ракету"
+
+[M_Orchid_Deserters:KillDeserter1Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Deserters:KillDeserter2 MissionObjectiveDefinition]
+ProgressMessage="Убить Палубного матроса"
+
+[M_Orchid_Deserters:KillDeserter2Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Deserters:KillDeserter3 MissionObjectiveDefinition]
+ProgressMessage="Убить Беззубого Терри"
+
+[M_Orchid_Deserters:KillDeserter3Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Deserters:KillDeserters MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame MissionDefinition]
+MissionName="Сокровище Песков"
+MissionDescription="Да, вы победили Левиафана и нашли Сокровище Песков - но это же не 
+значит, что вы не захотите начать все с самого начала! Что, реальный мир? Какой реальный 
+мир?"
+TurnInDescription="Вы победили Скарлетт, убили Левиафана и нашли Сокровище Песков! Вот 
+это дежа-вю!"
+MissionSummary="Доставить компас капитана Блэйда к маяку Магниса.\n"
+MissionGiver="Доска объявлений Оазиса"
+MissionTurnInLocation="Доска объявлений Оазиса"
+TeaserText="Сокровище Песков в ваших руках... Снова!"
+
+[M_Orchid_EndGame:ActivateBeacon MissionObjectiveDefinition]
+ProgressMessage="Включить маяк"
+
+[M_Orchid_EndGame:ActivateBeaconSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:ActivateBeaconSet2 MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:Activatelift MissionObjectiveDefinition]
+ProgressMessage="Включить лифт"
+
+[M_Orchid_EndGame:ActivateLiftSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:BossWormBattleSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:EscapeAmbushSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:EscapeLeviathan MissionObjectiveDefinition]
+ProgressMessage="Выйти из Левиафана"
+
+[M_Orchid_EndGame:EscapeSpire MissionObjectiveDefinition]
+ProgressMessage="Сбежать из башни"
+
+[M_Orchid_EndGame:EscapeSpireSet MissionObjectiveSetDefinition]
+MissionSummaryOverride="Разобраться с засадой Скарлетт и добраться до сокровища!\n"
+MissionDescriptionOverride="Итак, Скарлетт вас предала. Это, в общем, неудивительно, но все 
+равно неприятно. Теперь за вами охотятся ее пираты, и у вас только один выход - убить их 
+всех и добраться до Сокровища Песков раньше Скарлетт.\n"
+
+[M_Orchid_EndGame:FindTreasure MissionObjectiveDefinition]
+ProgressMessage="Найти сокровищницу"
+
+[M_Orchid_EndGame:FindWayUp MissionObjectiveDefinition]
+ProgressMessage="Подняться наверх"
+
+[M_Orchid_EndGame:FindWayUpSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:FollowBeacon MissionObjectiveDefinition]
+ProgressMessage="Идти на свет маяка"
+
+[M_Orchid_EndGame:FollowBeaconSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:GotoLighthouse MissionObjectiveDefinition]
+ProgressMessage="Войти в маяк Магниса"
+
+[M_Orchid_EndGame:GotoLighthouseSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:GotoLighthouseSet2 MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:GotoSpireSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:InsertCompass MissionObjectiveDefinition]
+ProgressMessage="Вставить компас"
+
+[M_Orchid_EndGame:InsertCompassSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:KillBossWorm MissionObjectiveDefinition]
+ProgressMessage="Убить Левиафана"
+
+[M_Orchid_EndGame:KillHenchmen MissionObjectiveDefinition]
+ProgressMessage="Убить подручных Скарлетт"
+
+[M_Orchid_EndGame:KillPirateQueen MissionObjectiveDefinition]
+ProgressMessage="Убить капитана Скарлетт"
+
+[M_Orchid_EndGame:KillPirateQueenSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:KillRoscoe MissionObjectiveDefinition]
+ProgressMessage="Убить Роско"
+
+[M_Orchid_EndGame:LeviathanSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:LeviathanSet2 MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:MeetScarlett MissionObjectiveDefinition]
+ProgressMessage="Найти Скарлетт"
+
+[M_Orchid_EndGame:MeetScarlettSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:Opengate MissionObjectiveDefinition]
+ProgressMessage="Активировать ворота"
+
+[M_Orchid_EndGame:OpenGateSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:TreasureRoomSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:UseLift MissionObjectiveDefinition]
+ProgressMessage="Использовать лифт"
+
+[M_Orchid_EndGame:UseLiftSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_EndGame:WaitForLift MissionObjectiveDefinition]
+ProgressMessage="Дождаться лифта"
+
+[M_Orchid_EndGame:WaitForLiftSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_FireWater MissionDefinition]
+MissionName="Огненная вода"
+MissionDescription="Фрэнк - труп, которого Тень считает непросыхающим пьяницей, - 
+нуждается в виски. Тень попросил вас добыть бутылку виски и отнести ее Фрэнку. Трудно 
+сказать, почему Тень так уверен, что труп Фрэнка будет пить виски. \n"
+TurnInDescription="Наверное, это к лучшему, что Фрэнк уже мертв - от добытого вами 
+алкоголя он бы точно скончался.\n"
+MissionSummary="Добыть виски для Фрэнка.\n"
+MissionGiver="Тень"
+MissionTurnInLocation="Тень"
+TeaserText="Что за вечеринка без бухла и трупов!"
+
+[M_Orchid_FireWater:FindFireWater MissionObjectiveDefinition]
+ProgressMessage="Найти виски"
+
+[M_Orchid_FireWater:FireWaterSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_FireWater:GiveWhiskey MissionObjectiveDefinition]
+ProgressMessage="Отдать виски Фрэнку"
+
+[M_Orchid_FireWater:GiveWhiskeySet MissionObjectiveSetDefinition]
+MissionSummaryOverride="Отдайте виски Фрэнку."
+MissionDescriptionOverride=""
+
+[M_Orchid_FireWater:ReturnToShadyDealer MissionObjectiveDefinition]
+ProgressMessage="Вернуться к Тени"
+
+[M_Orchid_FireWater:ReturnToShadyDealerSet MissionObjectiveSetDefinition]
+MissionSummaryOverride="Вернуться к Тени"
+MissionDescriptionOverride=""
+
+[M_Orchid_DontCopyThatFloppy MissionDefinition]
+MissionName="Не копируй эту дискету"
+MissionDescription="На [place]очистительном заводе Уошберна[-place] вам встретился 
+неисправный гиперионский грузчик по имени Ц3Н30Р. Похоже, он одержим идеей цензуры 
+любого «безнравственного» поведения на Пандоре. На этот раз Ц3Н30Р взял на прицел 
+пиратский софт. У некоторых местных бандитов есть пиратские копии последних 
+моделирующих ЭХО-программ. Ц3Н30Р просит вас убить этих бандитов и вернуть 
+программы.\n"
+TurnInDescription="Вам удалось покончить с пиратством ПО. Навсегда.\n"
+MissionSummary="Вернуть украденный софт.\n"
+MissionGiver="Ц3Н30Р"
+MissionTurnInLocation="Ц3Н30Р"
+TeaserText="Хей-хо! Кто хочет получить связанное с (программным) пиратством задание?"
+
+[M_Orchid_DontCopyThatFloppy:RetrieveSoftware MissionObjectiveDefinition]
+ProgressMessage="Взять дискеты"
+
+[M_Orchid_DontCopyThatFloppy:RetrieveSoftwareSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_FreedomOfSpeech MissionDefinition]
+MissionName="Свобода слова"
+MissionDescription="На [place]очистительном заводе Уошберна[-place] вам встретился 
+неисправный гиперионский грузчик по имени Ц3Н30Р. Похоже, он одержим идеей цензуры 
+любого «безнравственного» поведения на Пандоре. Ц3Н30Р попросил вас вступить в битву со 
+сквернословием. Бандитский диджей собирается выплеснуть в эфир поток брани с 
+радиовышки. Ц3Н30Р хочет, чтобы вы нашли этого диджея и убили его прежде, чем тот 
+успеет выругаться в прямом эфире.\n"
+TurnInDescription="Пусть на Пандоре процветают убийства, воровство и людоедство - зато вам 
+удалось искоренить нецензурную брань.\n"
+MissionSummary="Подвергнуть диджея цензуре. Свинцом.\n"
+MissionGiver="Ц3Н30Р"
+MissionTurnInLocation="Ц3Н30Р"
+TeaserText="На... цензуру."
+
+[M_Orchid_FreedomOfSpeech:BlowUpStation MissionObjectiveDefinition]
+ProgressMessage="Уничтожить контрольную панель радиостанции"
+
+[M_Orchid_FreedomOfSpeech:BlowUpStationSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_FreedomOfSpeech:KillDJ MissionObjectiveDefinition]
+ProgressMessage="Убить диджея Таннера"
+
+[M_Orchid_FreedomOfSpeech:KillDJSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_FreedomOfSpeech:ReturnSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_FreedomOfSpeech:ReturnToCensorbot MissionObjectiveDefinition]
+ProgressMessage="Вернуться к Ц3Н30Ру"
+
+[M_Orchid_Grendel MissionDefinition]
+MissionName="Грендель"
+MissionDescription="По просторам [place]Хейтерс Фолли[-place] бродит ужасное существо. Сэр 
+Хаммерлок, зоолог и опытный охотник, попросил вас выследить это существо и убить его.\n"
+TurnInDescription="Монстр повержен! [place]Хейтерс Фолли[-place] в безопасности! Если не 
+считать пиратов. И кристалисков. И других тварей, до которых вы еще не добрались.\n"
+MissionSummary="Найти и убить монстра.\n"
+MissionGiver="Доска объявлений Оазиса"
+MissionTurnInLocation="Доска объявлений Оазиса"
+TeaserText="У сэра Хаммерлока есть для вас работа!"
+
+[M_Orchid_Grendel:KillGrendel MissionObjectiveDefinition]
+ProgressMessage="Убить Гренделя"
+
+[M_Orchid_Grendel:KillGrendelSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_KnowItWhenSeeIt MissionDefinition]
+MissionName="Узнаю, когда увижу"
+MissionDescription="Неисправный гиперионский грузчик, который называет себя Ц3Н30Р, 
+предложил вам работу. Ему известно, что у робота по имени Р4СПУ7НИК есть 
+порнографические материалы. Ц3Н30Р предлагает вам найти Р4СПУ7НИКа, убить его и 
+забрать нелегальные материалы.\n"
+TurnInDescription="Даже роботы не могут без любви."
+MissionSummary="Убить Р4СПУ7НИКа и взять его порножурналы."
+MissionGiver="Ц3Н30Р"
+MissionTurnInLocation="Ц3Н30Р"
+TeaserText="Этот неисправный гиперионский грузчик, похоже, одержим идеей цензуры..."
+
+[M_Orchid_KnowItWhenSeeIt:CollectMags MissionObjectiveDefinition]
+ProgressMessage="Пачек журналов взято"
+
+[M_Orchid_KnowItWhenSeeIt:CollectMagsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_KnowItWhenSeeIt:KillPervbot MissionObjectiveDefinition]
+ProgressMessage="Убить Р4СПУ7НИКа"
+
+[M_Orchid_KnowItWhenSeeIt:KillPervbotSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend MissionDefinition]
+MissionName="Лучший друг человека"
+MissionDescription="Бабушка Обри Кэллахан III дружила с легендарным капитаном Блэйдом. 
+Умирая, он завещал ей своего ручного живоглота. И теперь, когда бабушка умерла, Обри 
+унаследовала злобного зверя, который ей совсем не нужен. Обри попросила вас его убить."
+TurnInDescription="Живоглоты милые и пушистые - пока маленькие!"
+MissionSummary="Убить живоглота Щекотунчика."
+MissionGiver="Доска объявлений Оазиса"
+MissionTurnInLocation="Доска объявлений Оазиса"
+TeaserText="Вы поможете Обри Кэллахан избавиться от живоглота?"
+
+[M_Orchid_MansBestFriend:Bandits MissionObjectiveDefinition]
+ProgressMessage="Убивать разбойников"
+
+[M_Orchid_MansBestFriend:BanditsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend:KillBanditsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend:KillRakksSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend:KillSkagsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend:KillStalker MissionObjectiveDefinition]
+ProgressMessage="Убить ручного живоглота Обри"
+
+[M_Orchid_MansBestFriend:KillStalkerSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend:KillStuffSet MissionObjectiveSetCollectionDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend:Rakks MissionObjectiveDefinition]
+ProgressMessage="Убивать ракков"
+
+[M_Orchid_MansBestFriend:RakksSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MansBestFriend:Skags MissionObjectiveDefinition]
+ProgressMessage="Убивать скагов"
+
+[M_Orchid_MansBestFriend:SkagsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle1 MissionDefinition]
+MissionName="Записка в бутылке"
+MissionDescription="В запечатанной бутылке обнаруживается записка, из которой вы узнаете о 
+сокровище, спрятанном в [place]Оазисе[-place]."
+TurnInDescription="Вам удалось найти клад. Это доказывает, что записки в бутылках годятся не 
+только для слащавых мелодрам."
+MissionSummary="Найти клад в Оазисе."
+MissionGiver="Записка в бутылке"
+MissionTurnInLocation="Сундук с сокровищами из Оазиса"
+TeaserText="О-о! Бутылка с запиской! Либо она приведет вас к кладу, либо вы внутри 
+дешевого любовного романа.\n"
+
+[M_Orchid_MessageInABottle1:FindLoot MissionObjectiveDefinition]
+ProgressMessage="Найти сокровище"
+
+[M_Orchid_MessageInABottle1:FindLootSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle2 MissionDefinition]
+MissionName="Записка в бутылке"
+MissionDescription="В бутылке вы нашли записку, в которой сказано, что на [place]Соленых 
+равнинах[-place] зарыт клад. "
+TurnInDescription="Сокровище найдено!"
+MissionSummary="Найти клад на Соленых равнинах."
+MissionGiver="Записка в бутылке"
+MissionTurnInLocation="Сундук с сокровищами из Соленых равнин"
+TeaserText="Записка в бутылке! Быть может, она приведет к кладу! (Спойлеры: обязательно 
+приведет)."
+
+[M_Orchid_MessageInABottle2:ChestOpenedSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle2:FindLoot MissionObjectiveDefinition]
+ProgressMessage="Найти сокровища"
+
+[M_Orchid_MessageInABottle2:FindLootSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle2:OpenChest MissionObjectiveDefinition]
+ProgressMessage="Открыть сундук"
+
+[M_Orchid_MessageInABottle2:OpenLootChest MissionObjectiveDefinition]
+ProgressMessage="Открыть сундук"
+
+[M_Orchid_MessageInABottle3 MissionDefinition]
+MissionName="Записка в бутылке"
+MissionDescription="В бутылке вы нашли записку, в которой сказано, что в [place]Хейтерс 
+Фолли[-place] зарыт клад. "
+TurnInDescription="Ну, не так уж оно было и спрятано."
+MissionSummary="Найти клад в Хейтерс Фолли."
+MissionGiver="Записка в бутылке"
+MissionTurnInLocation="Сундук с сокровищами из Хейтерс Фолли"
+TeaserText="Эй, еще одна записка в бутылке!"
+
+[M_Orchid_MessageInABottle3:ChestOpenedSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle3:FindLoot MissionObjectiveDefinition]
+ProgressMessage="Найти сокровище"
+
+[M_Orchid_MessageInABottle3:FindLootSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle3:OpenLootChest MissionObjectiveDefinition]
+ProgressMessage="Открыть сундук"
+
+[M_Orchid_MessageInABottle4 MissionDefinition]
+MissionName="Записка в бутылке"
+MissionDescription="В бутылке вы нашли записку, в которой сказано, что в [place]Ржави[-place] 
+зарыт клад. "
+TurnInDescription="Сокровище! Ух ты!"
+MissionSummary="Найти клад в Ржави."
+MissionGiver="Записка в бутылке"
+MissionTurnInLocation="Сундук с сокровищами в Ржави"
+TeaserText="Джинн в бутылке! Нет, стоп... еще одна записка."
+
+[M_Orchid_MessageInABottle4:ChestOpenedSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle4:FindLoot MissionObjectiveDefinition]
+ProgressMessage="Найти сокровища"
+
+[M_Orchid_MessageInABottle4:FindLootSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle4:OpenLootChest MissionObjectiveDefinition]
+ProgressMessage="Открыть сундук"
+
+[M_Orchid_MessageInABottle6 MissionDefinition]
+MissionName="Записка в бутылке"
+MissionDescription="В бутылке вы нашли записку, в которой сказано, что на [place]маяке 
+Магниса[-place] зарыт клад. "
+TurnInDescription="Дзинь-дзинь!"
+MissionSummary="Найти сокровище, спрятанное на маяке Магниса."
+MissionGiver="Записка в бутылке"
+MissionTurnInLocation="Сундук с сокровищами с маяка Магниса"
+TeaserText="Вероятно, эта бутылка была брошена в море еще в те времена, когда здесь 
+действительно слышали о воде. И о грамотности."
+
+[M_Orchid_MessageInABottle6:ChestOpenedSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle6:FindLoot MissionObjectiveDefinition]
+ProgressMessage="Найти сокровище"
+
+[M_Orchid_MessageInABottle6:FindLootSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_MessageInABottle6:OpenLootChest MissionObjectiveDefinition]
+ProgressMessage="Открыть сундук"
+
+[M_Orchid_Race MissionDefinition]
+MissionName="Быстрее любви"
+MissionDescription="Натали, кокетливое женское альтер-эго Тени, требует от вас победы в 
+гонке, которая проходит в [place]Соленых равнинах[-place]. Найдите себе пескоход, и пусть 
+веселье начнется!\n"
+TurnInDescription="К вам привязался труп. Такие дела.\n"
+MissionSummary="Выиграть гонку на время.\n"
+MissionGiver="Доска объявлений Оазиса"
+MissionTurnInLocation="Пиратская доска объявлений"
+TeaserText="Заводите моторы!"
+
+[M_Orchid_Race:FinishRace MissionObjectiveDefinition]
+ProgressMessage="Добраться до финиша"
+
+[M_Orchid_Race:FinishRaceSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Race:StartRace MissionObjectiveDefinition]
+ProgressMessage="Проехать через точку старта"
+
+[M_Orchid_Race:StartRaceSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Race:Waypoint1 MissionObjectiveDefinition]
+ProgressMessage="Добраться до 1-й контрольной точки"
+
+[M_Orchid_Race:Waypoint1Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Race:Waypoint2 MissionObjectiveDefinition]
+ProgressMessage="Добраться до 2-й контрольной точки"
+
+[M_Orchid_Race:Waypoint2Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Race:Waypoint3 MissionObjectiveDefinition]
+ProgressMessage="Добраться до 3-й контрольной точки"
+
+[M_Orchid_Race:Waypoint3Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Race:Waypoint4 MissionObjectiveDefinition]
+ProgressMessage="Добраться до 4-й контрольной точки"
+
+[M_Orchid_Race:Waypoint4Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_Race:Waypoint5 MissionObjectiveDefinition]
+ProgressMessage="Добраться до 5-й контрольной точки"
+
+[M_Orchid_Race:Waypoint5Set MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_ScurvyDogs MissionDefinition]
+MissionName="Псы цинготные"
+MissionDescription="Цинга убивает. Не так надежно, как, скажем, пули, голод или взрывчатка, 
+но все-таки убивает. Поэтому Мерсер попросил вас раздобыть фрукты для экипажа.\n"
+TurnInDescription="Фрукты, собранные вами, помогут предотвратить цингу. Пусть у Мюррея 
+пуля в ноге, но, по крайней мере, витамином С он обеспечен.\n"
+MissionSummary="Добыть фрукты.\n"
+MissionGiver="Пиратская доска объявлений"
+MissionTurnInLocation="Пиратская доска объявлений"
+TeaserText="Цингу вызывает нехватка витамина С. Болезни можно избежать, если время от 
+времени пить апельсиновый сок. Теперь попробуйте только сказать, что компьютерные игры 
+вас ничему не научили."
+
+[M_Orchid_ScurvyDogs:CollectFood MissionObjectiveDefinition]
+ProgressMessage="Собрать фрукты"
+
+[M_Orchid_ScurvyDogs:CollectFoodSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_SmellsLikeVictory MissionDefinition]
+MissionName="Пахнет победой"
+MissionDescription="Мерсер, кок шайки Скарлетт, хочет, чтобы вы устранили вонючего радиста 
+Заточку. Скарлетт предпочитает интересные, захватывающие казни, и поэтому Мерсер 
+попросил вас скормить Заточку песчаному червю. Однако тут все непросто, ведь Заточка 
+пахнет, словно кишки дохлого скага. Чтобы сделать его более аппетитным, вам понадобятся 
+приправа."
+TurnInDescription="Приятного аппетита!\n"
+MissionSummary="Скормить Заточку песчаному червю.\n"
+MissionGiver="Пиратская доска объявлений"
+MissionTurnInLocation="Пиратская доска объявлений"
+TeaserText="У Мерсера есть крошечная проблема. Как ее зовут? Заточка."
+
+[M_Orchid_SmellsLikeVictory:GetCondiments MissionObjectiveDefinition]
+ProgressMessage="Найти соус"
+
+[M_Orchid_SmellsLikeVictory:GetCondimentsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride="Найдите соус."
+MissionDescriptionOverride=""
+
+[M_Orchid_SmellsLikeVictory:MeetShivSpike MissionObjectiveDefinition]
+ProgressMessage="Найти Заточку"
+
+[M_Orchid_SmellsLikeVictory:MeetShivSpikeSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+[M_Orchid_SmellsLikeVictory:Push MissionObjectiveDefinition]
+ProgressMessage="Скормить Заточку песчаному червю"
+
+[M_Orchid_SmellsLikeVictory:PushSet MissionObjectiveSetDefinition]
+MissionSummaryOverride="Столкните Заточку за борт"
+MissionDescriptionOverride="Мерсер, кок шайки Скарлетт, хочет, чтобы вы устранили вонючего 
+радиста Заточку. Скарлетт предпочитает интересные, захватывающие казни, и поэтому 
+Мерсер попросил вас скормить Заточку песчаному червю. Вы намазали Заточку соусом, чтобы 
+замаскировать вонь, и теперь, скорее всего, песчаные черви им соблазнятся. Столкните 
+Заточку за борт и наслаждайтесь зрелищем."
+
+[M_Orchid_SmellsLikeVictory:UseCondiments MissionObjectiveDefinition]
+ProgressMessage="Обмазать Заточку соусом"
+
+[M_Orchid_SmellsLikeVictory:UseCondimentsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride="Обмажьте Заточку соусом."
+MissionDescriptionOverride="Мерсер, кок шайки Скарлетт, хочет, чтобы вы устранили вонючего 
+радиста Заточку. Скарлетт предпочитает интересные, захватывающие казни, и поэтому 
+Мерсер попросил вас скормить Заточку песчаному червю. Однако тут все непросто, ведь 
+Заточка пахнет, словно кишки дохлого скага. Соус у вас есть, намажьте ими Заточку, чтобы его 
+запах не был таким отвратительным."
+
+[M_Orchid_CatchRideTetanus MissionDefinition]
+MissionName="Тачкомат со столбняком"
+MissionDescription="[place]Убежищу[-place] постоянно нужен металлолом для поддержания 
+двигателей в рабочем состоянии. Скутер, механик [place]Убежища[-place], нанял вас для 
+сбора металлолома в [place]Ржави[-place].\n"
+TurnInDescription="Вы отправили металлолом Скутеру, но [place]Убежищу[-place] всегда будет 
+нужно еще.\n"
+MissionSummary="Собрать ржавый металлолом.\n"
+MissionGiver="Пиратская доска объявлений"
+MissionTurnInLocation="Пиратская доска объявлений"
+TeaserText="Помочь давнему приятелю."
+
+[M_Orchid_CatchRideTetanus:GetPart1 MissionObjectiveDefinition]
+ProgressMessage="Взять блок предохранителей"
+
+[M_Orchid_CatchRideTetanus:GetPart2 MissionObjectiveDefinition]
+ProgressMessage="Взять охладитель"
+
+[M_Orchid_CatchRideTetanus:GetPart3 MissionObjectiveDefinition]
+ProgressMessage="Взять контрольный переключатель"
+
+[M_Orchid_CatchRideTetanus:GetPart4 MissionObjectiveDefinition]
+ProgressMessage="Взять двигатель турели"
+
+[M_Orchid_CatchRideTetanus:GetPart5 MissionObjectiveDefinition]
+ProgressMessage="Взять анкер"
+
+[M_Orchid_CatchRideTetanus:SalvagePartsSet MissionObjectiveSetDefinition]
+MissionSummaryOverride=""
+MissionDescriptionOverride=""
+
+
